@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="org.nuhadif.emunogu.EduMenuActivity">
+
+    <Button
+        android:id="@+id/bBab1"
+        android:layout_width="260sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/bab1" />
+    <Button
+        android:id="@+id/bBab2"
+        android:layout_width="260sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/bab2"/>
+    <Button
+        android:id="@+id/bBab3"
+        android:layout_width="260sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/bab3"/>
+    <Button
+        android:id="@+id/bBab4"
+        android:layout_width="260sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/bab4"/>
+    <Button
+        android:id="@+id/bBab5"
+        android:layout_width="260sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/bab5"/>
+
+</LinearLayout>

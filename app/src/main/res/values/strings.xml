@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">EMUNOGU</string>
+    <string name="kuis">Kuis</string>
+    <string name="back">Back</string>
+    <string name="test_aja">test aja</string>
+    <string name="bab5">Bab5</string>
+    <string name="bab4">Bab4</string>
+    <string name="bab3">Bab3</string>
+    <string name="bab2">Bab2</string>
+    <string name="bab1">Bab1</string>
+    <string name="next">Next</string>
+    <string name="pilihan_d">Pilihan D</string>
+    <string name="pilihan_c">Pilihan C</string>
+    <string name="pilihan_b">Pilihan B</string>
+    <string name="pilihan_a">Pilihan A</string>
+    <string name="music_lesson">Music Lesson</string>
+    <string name="write_song">Write Song</string>
+    <string name="bab_selanjutnya">Bab Selanjutnya</string>
+    <string name="_10">10</string>
+    <string name="hasil_jawaban">Hasil Jawaban</string>
+    <string name="pertanyaan_kuis">Pertanyaan Kuis</string>
 </resources>

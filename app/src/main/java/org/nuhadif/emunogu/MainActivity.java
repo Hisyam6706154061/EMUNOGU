@@ -23,5 +23,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(menu);
             }
         });
+
+        // EduMenuActivity
+        TextView musicLesson = (TextView) findViewById(R.id.musicLesson);
+        musicLesson.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent menu = new Intent( MainActivity.this, EduMenuActivity.class);
+                startActivity(menu);
+            }
+        });
     }
 }

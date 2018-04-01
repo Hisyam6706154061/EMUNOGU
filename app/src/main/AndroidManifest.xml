@@ -18,10 +18,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListActivity"
-            android:screenOrientation="landscape">
+        <activity
+            android:name=".ListActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".EduMenuActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Bab1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisBab1"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".HasilKuisBab1"
+            android:screenOrientation="landscape"/>
 
-        </activity>
     </application>
 
 </manifest>
