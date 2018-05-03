@@ -31,7 +31,7 @@
             android:id="@+id/musicLesson"
             android:text="@string/music_lesson"
             android:textAlignment="center"
-            android:textColor="#c2c2c2"
+            android:textColor="#FFFFFF"
             android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

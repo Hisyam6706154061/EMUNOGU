@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_gravity="center"
-    tools:context="org.nuhadif.emunogu.Bab1">
+    tools:context="org.nuhadif.emunogu.Bab3">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,6 @@
             android:id="@+id/rv_materi"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
-
 
     </LinearLayout>
     <RelativeLayout

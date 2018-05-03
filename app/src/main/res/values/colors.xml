@@ -2,5 +2,9 @@
 <resources>
     <color name="colorPrimary">#FF9E1C</color>
     <color name="colorPrimaryDark">#FF9200</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#FF9E1C</color>
+    <color name="btn_warning">#ffea00</color>
+    <color name="btn_danger">#f75350</color>
+    <color name="btn_info">#6ff1e9</color>
+    <color name="btn_succeed">#72f167</color>
 </resources>

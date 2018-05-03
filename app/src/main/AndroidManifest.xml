@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.nuhadif.emunogu">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,9 +20,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ListActivity"
-            android:screenOrientation="landscape" />
-        <activity
             android:name=".EduMenuActivity"
             android:screenOrientation="landscape" />
         <activity
@@ -29,10 +27,53 @@
             android:screenOrientation="landscape" />
         <activity
             android:name=".KuisBab1"
-            android:screenOrientation="landscape"/>
-        <activity android:name=".HasilKuisBab1"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HasilKuisActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SongListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".EditorActivity"
+            android:label="Add a Song"
+            android:parentActivityName=".SongListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/EditorTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SongListActivity" />
+        </activity>
 
+        <provider
+            android:name=".SongProvider"
+            android:authorities="org.nuhadif.emunogu" />
+
+        <activity
+            android:name=".KuisBab2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisBab3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisBab4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisBab5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Bab2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Bab3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Bab4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Bab5"
+            android:screenOrientation="landscape"/>
     </application>
 
 </manifest>
